@@ -1,6 +1,4 @@
-Python 3.8.3 (tags/v3.8.3:6f8c832, May 13 2020, 22:37:02) [MSC v.1924 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
->>> import time
+import time
 import sys
 import ibmiotf.application # to install pip install ibmiotf
 import ibmiotf.device
@@ -8,7 +6,7 @@ import ibmiotf.device
 #Provide your IBM Watson Device Credentials
 organization = "m3uacx" #replace the ORG ID
 deviceType = "agroiot"#replace the Device type wi
-deviceId = "smartagri"#replace Device ID
+deviceId = "smartagri2.0"#replace Device ID
 authMethod = "token"
 authToken = "smartagri" #Replace the authtoken
 
